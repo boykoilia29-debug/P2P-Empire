@@ -1,0 +1,2 @@
+-keep @kotlinx.serialization.Serializable class * { *; }
+-keepclassmembers class kotlinx.serialization.json.** { *** Companion; }
